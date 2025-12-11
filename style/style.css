@@ -57,13 +57,13 @@ nav {
 
 .parrafo-peque p {
     text-align: center;
-    width: 750px;
-    margin-left: 480px;
+    width: 100%;
     margin-top: 20px;
     line-height: 1.5;
 }
+
 .boton-principal {
-    margin-left: 779px;
+    text-align: center;
     margin-top: 30px;
 }
 
@@ -428,25 +428,31 @@ nav {
     text-align: center;
 }
 
+.img-susan {
+    width: 50%;
+}
+
 .img-susan img {
-    width: 945px;
-    height: 55vh;
+    width: 100%;
 }
 
 .parrafo-frase {
     background-color: #523549;
-    width: 980px;
-    height: 450px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
 }
 
 .parrafo-frase p {
     font-family: "Cardo", serif;
     font-style: italic;
     color: #FEFEFF;
-    font-size: 25px;
-    margin-top: 30px;
-    width: 380px;
-    margin-left: 130px;
+    font-size: 40px;
+    /* margin-top: 30px; */
+    width: 500px;
+    /* margin-left: 130px; */
     line-height: 1.5;
 }
 
@@ -454,6 +460,7 @@ nav {
     font-size: 12px;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
+    padding-top: 30px;
 }
 
 .seccion-are-you-ready {
@@ -577,9 +584,11 @@ footer {
     .raya-blanca {
         width: 70%;
     }
-    .seccion-principal{
-        height: 130vh;
+
+    .seccion-principal {
+        height: 120vh;
     }
+
     .parrafo-principal {
         margin-top: 120px;
     }

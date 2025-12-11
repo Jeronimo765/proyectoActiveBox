@@ -565,6 +565,14 @@ footer {
     color: #F1F2F2;
 }
 
+@media (max-width: 1280px) {
+
+    .seccion-principal{
+        height: 150vh;
+    }
+    
+}
+
 @media (max-width: 1279px) {
 
     nav {

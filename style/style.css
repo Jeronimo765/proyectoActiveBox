@@ -577,10 +577,11 @@ footer {
     .raya-blanca {
         width: 70%;
     }
-
+    .seccion-principal{
+        height: 170vh;
+    }
     .parrafo-principal {
         margin-top: 120px;
-         height: 170vh;
     }
 
     .parrafo-grande1 p {

@@ -58,13 +58,12 @@ nav {
 .parrafo-peque p {
     text-align: center;
     width: 750px;
-    margin-left: 570px;
+    margin-left: 480px;
     margin-top: 20px;
     line-height: 1.5;
 }
-
 .boton-principal {
-    margin-left: 855px;
+    margin-left: 779px;
     margin-top: 30px;
 }
 
@@ -437,7 +436,7 @@ nav {
 .parrafo-frase {
     background-color: #523549;
     width: 980px;
-    height: 520px;
+    height: 450px;
 }
 
 .parrafo-frase p {

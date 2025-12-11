@@ -578,8 +578,8 @@ footer {
         width: 70%;
     }
 
-    .seccion-principal{
-        height: 180vh;
+    .seccion-principal {
+        height: 170vh;
     }
 
     .parrafo-principal {
@@ -832,51 +832,51 @@ footer {
         height: 272px;
     }
 
-    .parrafo-frase p{
+    .parrafo-frase p {
         font-size: 18px;
     }
 
-    .parrafo-solo p{
+    .parrafo-solo p {
         font-size: 12px;
     }
 
-    .parrafo-grande-menor p{
+    .parrafo-grande-menor p {
         font-size: 20px;
     }
 
-    .parrafito p{
+    .parrafito p {
         font-size: 10px;
     }
 
-    .seccion-are-you-ready button{
+    .seccion-are-you-ready button {
         margin-left: 250px;
     }
 
-    .location h3{
+    .location h3 {
         font-size: 15px;
     }
 
-    .location p{
+    .location p {
         font-size: 13px;
     }
 
-    .redes h3{
+    .redes h3 {
         font-size: 15px;
     }
 
-    .imagenes-redes2{
+    .imagenes-redes2 {
         margin-left: 255px;
     }
 
-    .about h3{
+    .about h3 {
         font-size: 13px;
     }
 
-    .about p{
+    .about p {
         font-size: 13px;
     }
 
-    footer p{
+    footer p {
         font-size: 13px;
     }
 

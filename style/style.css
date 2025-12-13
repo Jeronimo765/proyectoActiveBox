@@ -445,6 +445,35 @@ nav {
     padding: 60px;
 }
 
+.punticos {
+    display: flex;        
+    gap: 8px;    
+    font-size: 12px;  
+    margin-top: 50px;       
+    margin-left: 200px;
+}
+
+.punto1 {
+    color:#765F6F;
+}
+
+.punto2 {
+    color:#FAFEFC;
+}
+
+.punto3{
+    color: #745E6E;
+}
+
+.punto4{
+    color: #745E6E;
+}
+
+.punto5{
+    color: #745E6E;
+}
+
+
 .parrafo-frase p {
     font-family: "Cardo", serif;
     font-style: italic;
@@ -459,6 +488,7 @@ nav {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     padding-top: 30px;
+    width: 310px;
 }
 
 .seccion-are-you-ready {

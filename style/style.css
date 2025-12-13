@@ -34,14 +34,19 @@ nav {
 
 
 .seccion-principal {
-    height: 100vh;
+    min-height: 100vh;     /* base */
+    height: auto;          /* CLAVE */
+    padding: 80px 20px;
+
     color: white;
     background:
         linear-gradient(rgba(49, 50, 78, 0.95), rgba(49, 50, 78, 0.95)),
         url(../assets/images/fondo-madera.png);
-    background-size: cover;
 
+    background-size: cover;
+    background-position: center;
 }
+
 
 .parrafo-principal {
     margin-top: 290px;
@@ -612,10 +617,6 @@ footer {
         width: 70%;
     }
 
-    .seccion-principal {
-        height: 120vh;
-    }
-
     .parrafo-principal {
         margin-top: 120px;
     }
@@ -660,11 +661,16 @@ footer {
     }
 
     .galeria-2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "img-1 img-2"
+            "img-3 img-4"
+            "img-5 img-6"
+        ;
+        gap: 15px;
+        padding: 20px;
+        margin-left: 200px;
     }
 
     .galeria-2 div {
@@ -675,16 +681,36 @@ footer {
     .galeria-2 img {
         width: 100%;
         height: auto;
-        display: block;
+        gap: 20px;
     }
 
     .seccion-personas {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "persona1"
+            "persona2"
+            "persona3"
+            "persona4";
         gap: 40px;
-        padding: 40px;
-        margin: 40px auto;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .persona1,
+    .persona2,
+    .persona3,
+    .persona4 {
+        text-align: center;
+    }
+
+    .seccion-personas p {
+        width: 40%;
+        margin-left: 280px;
+    }
+
+    .imagenes-redes {
+        justify-content: center;
     }
 
     .seccion-frase {
@@ -811,6 +837,11 @@ footer {
     }
 
     .galeria-2 {
+
+        margin-left: 110px;
+    }
+
+    .galeria-2 {
         gap: 12px;
     }
 
@@ -819,16 +850,16 @@ footer {
     }
 
     .persona1 img {
-        width: 70%;
+        width: 40%;
     }
 
     .persona1 p {
-        width: 250px;
+        width: 150px;
         font-size: 12px;
     }
 
     .imagenes-redes img {
-        width: 12%;
+        width: 5%;
     }
 
     .img-susan img {
@@ -836,43 +867,46 @@ footer {
     }
 
     .persona2 img {
-        width: 70%;
+        width: 40%;
     }
 
     .persona2 p {
-        width: 250px;
+        width: 150px;
         font-size: 12px;
     }
 
     .imagenes-redes img {
-        width: 12%;
+        width: 5%;
+        ;
     }
 
 
     .persona3 img {
-        width: 70%;
+        width: 40%;
     }
 
     .persona3 p {
-        width: 250px;
+        width: 150px;
         font-size: 12px;
     }
 
     .imagenes-redes img {
-        width: 12%;
+        width: 5%;
+        ;
     }
 
     .persona4 img {
-        width: 70%;
+        width: 40%;
     }
 
     .persona4 p {
-        width: 250px;
+        width: 150px;
         font-size: 12px;
     }
 
     .imagenes-redes img {
-        width: 12%;
+        width: 5%;
+        ;
     }
 
     .parrafo-frase {
@@ -932,4 +966,221 @@ footer {
         font-size: 13px;
     }
 
+}
+
+@media (max-width: 768px) {
+
+    .secciones a {
+        font-size: 10px;
+    }
+
+
+    .parrafo-grande1 p {
+        font-size: 25px;
+    }
+
+    .parrafo-peque p {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    .boton-principal button {
+        font-size: 10px;
+        padding: 10px 18px;
+    }
+
+    .galeria-1 p {
+        width: 60%;
+        margin-left: 85px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .galeria-1 img {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .icono-1 h2 {
+        font-size: 13px;
+    }
+
+    .icono-1 p {
+        font-size: 12px;
+    }
+
+    .icono-2 h2 {
+        font-size: 13px;
+    }
+
+    .icono-2 p {
+        font-size: 12px;
+    }
+
+    .icono-3 h2 {
+        font-size: 13px;
+    }
+
+    .icono-3 p {
+        font-size: 12px;
+    }
+
+    .icono-4 h2 {
+        font-size: 13px;
+    }
+
+    .icono-4 p {
+        font-size: 12px;
+    }
+
+    .icono-5 h2 {
+        font-size: 13px;
+    }
+
+    .icono-5 p {
+        font-size: 12px;
+    }
+
+    .icono-6 h2 {
+        font-size: 13px;
+    }
+
+    .icono-6 p {
+        font-size: 12px;
+    }
+
+    .punticos {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .galeria-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            "img-5"
+            "img-6";
+        gap: 15px;
+        padding: 20px;
+        margin-left: 90px;
+    }
+
+    .seccion-personas p {
+        margin-left: 140px;
+    }
+
+    .imagenes-redes img {
+        width: 8%;
+    }
+
+    .parrafo-frase p {
+        font-size: 15px;
+    }
+
+    .parrafo-solo p {
+        font-size: 8px;
+    }
+
+    .punticos {
+        font-size: 7px;
+    }
+
+    .parrafo-grande-menor p {
+        font-size: 16px;
+    }
+
+    .seccion-are-you-ready button {
+        margin-left: 130px;
+    }
+
+    .seccion-are-you-ready button {
+        padding: 10px 10px;
+    }
+
+    .imagenes-redes2 {
+        margin-left: 90px;
+    }
+
+    .about p {
+        margin-left: 110px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .parrafo-grande1 p {
+        font-size: 20px;
+    }
+
+    .parrafo-peque p {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .galeria-1 p {
+        width: 60%;
+        margin-left: 55px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .galeria-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            "img-5"
+            "img-6";
+        gap: 15px;
+        padding: 20px;
+        margin-left: 30px;
+    }
+
+    .seccion-personas p {
+        margin-left: 80px;
+    }
+
+    .imagenes-redes img {
+        width: 10%;
+    }
+
+    .parrafo-frase p {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .parrafo-solo p {
+        font-size: 6px;
+        width: 80%;
+    }
+
+    .punticos {
+        font-size: 5px;
+    }
+
+    .imagenes-redes2 {
+        margin-left: 30px;
+    }
+
+    .about p {
+        margin-left: 60px;
+    }
+
+    .boton-principal button {
+        font-size: 9px;
+        padding: 8px 15px;
+    }
+
+    .seccion-are-you-ready button {
+        margin-left: 80px;
+        padding: 8px 15px;
+        font-size: 9px;
+    }
 }

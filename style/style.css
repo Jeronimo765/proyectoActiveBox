@@ -450,9 +450,7 @@ nav {
     font-style: italic;
     color: #FEFEFF;
     font-size: 40px;
-    /* margin-top: 30px; */
     width: 500px;
-    /* margin-left: 130px; */
     line-height: 1.5;
 }
 
@@ -491,7 +489,7 @@ nav {
     font-size: 12px;
     border-radius: 2px;
     border: 2px solid #E84546;
-    margin-left: 785px;
+    margin-left: 690px;
 }
 
 
@@ -532,14 +530,14 @@ nav {
 }
 
 .redes {
-    margin-left: 210px;
+    margin-left: 190px;
 }
 
 .redes h3 {
     color: #FFFFFF;
 }
 
-.imagenes-redes img {
+.imagenes-redes2 img {
     margin-left: 10px;
 }
 

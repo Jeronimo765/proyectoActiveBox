@@ -713,7 +713,7 @@ footer {
         margin-top: 10px;
     }
 
-    .parrafo-solo p{
+    .parrafo-solo p {
         font-size: 12px;
     }
 
@@ -831,6 +831,10 @@ footer {
         width: 12%;
     }
 
+    .img-susan img {
+        height: 272px;
+    }
+
     .persona2 img {
         width: 70%;
     }
@@ -843,6 +847,7 @@ footer {
     .imagenes-redes img {
         width: 12%;
     }
+
 
     .persona3 img {
         width: 70%;
@@ -890,6 +895,10 @@ footer {
         font-size: 10px;
     }
 
+    .punticos {
+        margin-left: 120px;
+    }
+
     .seccion-are-you-ready button {
         margin-left: 250px;
     }
@@ -907,7 +916,7 @@ footer {
     }
 
     .imagenes-redes2 {
-        margin-left: 255px;
+        margin-left: 235px;
     }
 
     .about h3 {
@@ -916,6 +925,7 @@ footer {
 
     .about p {
         font-size: 13px;
+        margin-left: 190px;
     }
 
     footer p {

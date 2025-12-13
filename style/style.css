@@ -88,7 +88,7 @@ nav {
     grid-template-areas:
         "icono-1 icono-2 icono-3"
         "icono-4 icono-5 icono-6";
-    gap: 70px;
+    gap: 50px;
 }
 
 
@@ -425,7 +425,6 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    text-align: center;
 }
 
 .img-susan {
@@ -446,30 +445,30 @@ nav {
 }
 
 .punticos {
-    display: flex;        
-    gap: 8px;    
-    font-size: 12px;  
-    margin-top: 50px;       
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    margin-top: 50px;
     margin-left: 200px;
 }
 
 .punto1 {
-    color:#765F6F;
+    color: #765F6F;
 }
 
 .punto2 {
-    color:#FAFEFC;
+    color: #FAFEFC;
 }
 
-.punto3{
+.punto3 {
     color: #745E6E;
 }
 
-.punto4{
+.punto4 {
     color: #745E6E;
 }
 
-.punto5{
+.punto5 {
     color: #745E6E;
 }
 
@@ -694,25 +693,33 @@ footer {
     }
 
     .img-susan img {
-        width: 130%;
+        width: 100%;
         height: 349px;
     }
 
     .parrafo-frase {
         height: 349px;
         padding: 40px 10px;
-        width: 65%;
+        width: 55%;
     }
 
     .parrafo-frase p {
         margin: 0 auto;
         width: 80%;
+        font-size: 25px;
     }
 
     .parrafo-solo {
         margin-top: 10px;
     }
 
+    .parrafo-solo p{
+        font-size: 12px;
+    }
+
+    .punticos {
+        margin-top: 20px;
+    }
 
     .seccion-are-you-ready {
         padding: 40px;
@@ -730,7 +737,7 @@ footer {
     }
 
     .imagenes-redes2 {
-        margin-left: 330px;
+        margin-left: 310px;
     }
 
     .location h3,
